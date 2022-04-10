@@ -6,21 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <!-- font awsome script -->
+    <script src="https://kit.fontawesome.com/afb6dc5195.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-   <section>
-       <h1>Rock, Paper, Scissors</h1>
-       <div>
-           <button id="rock">Rock</button>
-           <button id="paper">Paper</button>
-           <button id="scissors">Scissors</button>
-       </div>
-       <div>
-           <h2>player picks: <span id="player-picks"></span></h2>
-           <h2>computer picks: <span id="comp-picks"></span></h2>
-           <h2>Result: <span id="result"></span></h2>
-       </div>
-   </section> 
+   <div class="flexbox-container">
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="flex-row"> 
+        <button id="rock" class="btn-styling"><i class="fa-solid fa-hand"></i></button>
+        <button id="paper"><i class="fa-solid fa-hand-back-fist"></i></button>
+        <button id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+    </div>
+    <div>
+        <h2>player picks: <span id="player-picks"></span></h2>
+        <h2>computer picks: <span id="comp-picks"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+    </div>
+    <div>
+        <h3>player score:<span id="player-score"></span></h3>
+        <h3>computer score:<span id="comp-score"></span></h3>
+    </div>
+   </div> 
 </body>
 </html>
