@@ -5,8 +5,14 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+body{
+    background: #3f3f3f;
+    min-height: 100vh;
+}
  h1 {
     font-family: 'Bangers', cursive;
+    margin-top: 2rem;
  }
 div {
     display: flex;
@@ -29,4 +35,11 @@ div {
     border: 5px solid;
 
 
+}
+
+@media (min-width: 768px ) {
+    body{
+        background-image: url('/assets/images/55758399_m.jpg');
+        min-height: 100vh;
+    }   
 }

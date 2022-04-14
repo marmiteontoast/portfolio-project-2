@@ -11,8 +11,8 @@ let result
 let userScore = 0
 let machineScore = 0
 
-button.forEach(button => button.addEventListener('click', (e) => {
-    playerPicks = e.target.id
+button.forEach(button => button.addEventListener('click', function() {
+    playerPicks = this.id
     playerPicksDisplay.innerHTML = playerPicks
     compRandomAnswer()
     getResult()
