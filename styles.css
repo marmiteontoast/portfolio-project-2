@@ -4,16 +4,19 @@
 
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #e8e6e3;
 }
 
 body{
-    background: #3f3f3f;
+    background: #0c0c0c;
     min-height: 100vh;
 }
  h1 {
     font-family: 'Bangers', cursive;
     margin-top: 2rem;
  }
+
+
 div {
     display: flex;
     align-items: center;
@@ -32,14 +35,41 @@ div {
     width: 6.25rem;
     border-radius: 30%;
     font-size: 3rem;
-    border: 5px solid;
+    border: 9px solid;
+    color: #3f3f3f;
 
 
+}
+
+i {
+    color: #3f3f3f;
 }
 
 @media (min-width: 768px ) {
     body{
         background-image: url('/assets/images/55758399_m.jpg');
         min-height: 100vh;
-    }   
+    } 
+    
+    .flexbox-container {
+        width: 44.875rem;
+        height: 34.375rem;
+        margin: auto;
+        margin-top: 5rem;
+        background-color: rgba(128, 0, 128, 0.4);
+    }
+
+    div {
+        gap: 4.3rem;
+    }
+
+    #row-div {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1000px) {
+    .flexbox-container {
+        width: 64.875rem;
+    }
 }
