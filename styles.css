@@ -37,7 +37,14 @@ div {
     font-size: 3rem;
     border: 9px solid;
     color: #3f3f3f;
+    cursor: pointer;
+    transition: 100ms;
 
+
+}
+
+.btn-styling:hover {
+    transform: scale(1.2);
 
 }
 
