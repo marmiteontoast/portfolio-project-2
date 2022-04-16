@@ -11,6 +11,7 @@ let result
 let userScore = 0
 let machineScore = 0
 
+// main game function
 button.forEach(button => button.addEventListener('click', function() {
     playerPicks = this.id
     playerPicksDisplay.innerHTML = playerPicks
@@ -19,6 +20,9 @@ button.forEach(button => button.addEventListener('click', function() {
     gameOver()
 }))
 
+/**
+ * fuction generates ranodom number
+ */
 function compRandomAnswer() {
     const randomNumber = Math.floor(Math.random() * button.length + 1)
     console.log(randomNumber)
@@ -34,6 +38,9 @@ function compRandomAnswer() {
     compPicksDisplay.innerHTML = compPicks
 }
 
+/**
+ * function to determine the winner
+ */
 function getResult() {
     if (compPicks === playerPicks) {
         result = 'its a draw!'
@@ -68,6 +75,9 @@ function getResult() {
      
 }
 
+/**
+ * function declares the winner of the match and resets the game to 0 after score reaches 6 
+ */
 function gameOver(getResult) {
     if (userScore === 6) {
         alert('player has won the match')
