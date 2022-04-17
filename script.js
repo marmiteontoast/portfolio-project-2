@@ -1,3 +1,4 @@
+// declared variables
 const playerPicksDisplay = document.querySelector('#player-picks')
 const compPicksDisplay= document.querySelector('#comp-picks')
 const resultDisplay = document.querySelector('#result')
@@ -11,13 +12,16 @@ let result
 let userScore = 0
 let machineScore = 0
 
-// main game function
+/**
+ * main game function
+ */
 button.forEach(button => button.addEventListener('click', function() {
     playerPicks = this.id
     playerPicksDisplay.innerHTML = playerPicks
     compRandomAnswer()
     getResult()
     gameOver()
+    reStart()
 }))
 
 /**
@@ -88,3 +92,13 @@ function gameOver(getResult) {
     } 
     
 } 
+
+/**
+ * function for reset button. refreshes page.
+ */
+function reStart() {
+   const reStart = document.querySelector('#reset').addEventListener('click', function() {
+        window.location.reload()
+   })
+  
+}
