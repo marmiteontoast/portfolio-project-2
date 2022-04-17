@@ -55,6 +55,7 @@ i {
 /* media queires */
 @media (min-width: 768px ) {
     body{
+        background: none;
         background-image: url('assets/images/55758399_m.jpg');
         min-height: 100vh;
     } 
