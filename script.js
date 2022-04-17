@@ -21,7 +21,7 @@ button.forEach(button => button.addEventListener('click', function() {
     compRandomAnswer()
     getResult()
     gameOver()
-    reStart()
+    // reStart()
 }))
 
 /**
