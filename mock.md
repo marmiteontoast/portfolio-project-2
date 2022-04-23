@@ -122,11 +122,26 @@ This is my rock, paper, scissors game meant to show my current javascript knowle
 
 # Testing 
 
+- ## HTML 
+    - html page was put through the W3C Markup validator and found to have no errors
 
+    <h2><img src='assets/images/HTML_validator_img.png'></h2>
 
+- ## CSS
 
+    - the css page was put through the W3C CSS validator and came out with no errors
 
+    <h2><img src='assets/images/CSS_validator_img.png'></h2>
 
+- ## Javscript
 
+    - The javascript page was put through Js Hint and came out with no errors or warnings
 
+    <h2><img src='assets/images/JSHint_img.png'></h2>
+
+## unfixed Bugs
+
+The JSHint says there is a "unused variable" on the page, which is the reStart variable, but it is in fact being used within my  reStart function. I reached out to people on slack and they say i  could be happening beacuse i have multiple scripts and the validator can't identify which one it belongs to.
+
+<h2><img src='assets/images/unused_img.png'></h2>
 
