@@ -139,9 +139,24 @@ This is my rock, paper, scissors game meant to show my current javascript knowle
 
     <h2><img src='assets/images/JSHint_img.png'></h2>
 
+- ## Accessibility
+
+    - I have confirmed that the font styles are readable, and accessibility is a high percentage using lighthouse in devtools.
+
+<h2><img src='assets/images/light_house_img.png'></h2>
+
 ## unfixed Bugs
 
 The JSHint says there is a "unused variable" on the page, which is the reStart variable, but it is in fact being used within my  reStart function. I reached out to people on slack and they say i  could be happening beacuse i have multiple scripts and the validator can't identify which one it belongs to.
 
 <h2><img src='assets/images/unused_img.png'></h2>
+
+# Deployment
+
+- deployment of the site was done on GitHub. The steps of how are as follows:
+    - click on repository "portfolio-project-2" from my account. From there navigate to settings.
+    - on the left side of the page under "code and automation" click on pages.
+    - select "main" in the Branch, then you will be provided a link that will take youto the completed website
+
+    [view project here]('https://marmiteontoast.github.io/portfolio-project-2/')
 
