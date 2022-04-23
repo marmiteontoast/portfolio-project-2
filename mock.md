@@ -160,3 +160,13 @@ The JSHint says there is a "unused variable" on the page, which is the reStart v
 
     [view project here]('https://marmiteontoast.github.io/portfolio-project-2/')
 
+# Credits
+
+## content
+
+- Part of my javascipt code was taken from a youtube video found [here.]('https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=688s')
+
+- the function used for my scoring system was influenced by a piece of code found on [geeksforgeeks.org.]('https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/')
+
+## Media
+- I got the background image from 123rf.com. a site for people who need images for personal projects. link found [here]('https://www.123rf.com/photo_55758399_seamless-pattern-with-hand-gestures-in-comic-cartoon-style-vector-illustration-of-human-hands-playin.html')
