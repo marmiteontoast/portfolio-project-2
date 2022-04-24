@@ -1,108 +1,172 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align='center'> Rock, Paper, Scissors</h1> 
 
-Welcome mark john,
+[view my project here.](https://marmiteontoast.github.io/portfolio-project-2/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is my rock, paper, scissors game meant to show my current javascript knowledge and how javascript can be used to create a interactive game. This game in interactive and accesiable on all common media devices. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h2 align='center'><img src='assets/images/Am I Responsive.png'></h2>
 
-## Gitpod Reminders
+# user experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- ## User Stories
 
-`python3 -m http.server`
+    - ## visitors
+        - i want visitors to the site to immediately understand the purpose of the website
 
-A blue button should appear to click: _Make Public_,
+        - i want the visitor to find the buttons interactive and responsive
 
-Another blue button should appear to click: _Open Browser_.
+        - i want the visitor to grasp the basics and fundermentals of javascript
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        - i want the visitor to understand the rules without having to read any instructions 
 
-A blue button should appear to click: _Make Public_,
+        - i want the visitor to find the game enjoyable and challenging 
 
-Another blue button should appear to click: _Open Browser_.
+    - ## return visitor
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+        - i want the return visitor to continue to find the game enjoyable and challenging 
 
-To log into the Heroku toolbelt CLI:
+        - i want the ruturn visitor to continue to use this website as a reference for the basics of javascript
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- # Design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    - ## colour Scheme
 
-------
+        - The site has three main colours black, white and purple.
 
-## Release History
+    - ## Typography
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+        - The main font for the site is Roboto with Sans-Serif as fallback and the heading is using the font Bangers, using cursive as its fallback. i used the fallback fonts Sans-serif and cursive because most browsers will be compatiable with it.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    - ## Imagery
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+        - the website uses a single, large black and white image of hands demonstrating the rock, paper and scirssors signs. The image is used to catch the user's attention and inspire them to play the game and interact with the website.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+# Technologies Used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- # Languages used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    - ## HTML
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    - ## CSS
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+    - ## JavaScript
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Existing Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- ### game box
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    - featured in the centre of the page, this gets the users attention 
+    - the colour purple was used for contrast against the white text. Used so the user can clearly see the games features and functions.
+    - transparent box so you are able to see the background image.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<h2><img src='assets/images/game_box_img.png'></h2>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- ### The rock, paper, scissors heading
+    - presented on the top of the page, heading is in the banger font and all capitals. It's bold, it stands out and is easy for the user to see. From first glance the user is able to identify the name of the game.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<h2><img src='assets/images/header_img.png'></h2> 
 
-------
+- ### Game Buttons
 
-## FAQ about the uptime script
+    -  the user can clearly see the three choices of rock, paper, and scissors
 
-**Why have you added this script?**
+    - The use of font awesome icons for my buttons stands out and attracts the user 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    - using icons for the buttons gives a clear understanding what the user is pressing 
 
-**How will this affect me?**
+    - the mouse curser changes to a pointer so the user understands that this is a button
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    - button also scales when the user hovers over it with the mouse. It's striking and will attract the users attention.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<h2><img src='assets/images/buttons_img.png'></h2>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- ### player and computer choices
 
-**So….?**
+    - This area of the game shows what the user picked and what the computer picked 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    - font colour in white for contrast against purple background, so clear for the user to see 
 
-**Can I opt out?**
+    - the users choice will display next to the "player picks:" and "computer picks" statements
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+<h2><img src='assets/images/player_comp_img.png'></h2>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- ### The result area
 
-**Anything more?**
+    - In this area the user can clearly see who won the round
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+    - the oulcome will be displayed next to the "Result:" statement 
 
----
+    - if the user wins "You win" will be displayed and if not "You lose" will show
 
-Happy coding!
+<h2><img src='assets/images/result_img.png'></h2>
+
+- ###  The Score area
+
+    - this area show the user the current score 
+
+    - In this area the user can see how many rounds each of them have 
+
+    - score will display next to each of the statements featured
+
+<h2><img src='assets/images/score_img.png'></h2>
+
+- ### reset button
+
+    - This section the user, for what every reason, can restart the game.
+
+    - using an icon for the reset buttton the user can easily see what it is used for. 
+
+<h2><img src='assets/images/reset_img.png'></h2>
+
+# Testing 
+
+- ## HTML 
+    - html page was put through the W3C Markup validator and found to have no errors
+
+    <h2><img src='assets/images/HTML_validator_img.png'></h2>
+
+- ## CSS
+
+    - the css page was put through the W3C CSS validator and came out with no errors
+
+    <h2><img src='assets/images/CSS_validator_img.png'></h2>
+
+- ## Javscript
+
+    - The javascript page was put through Js Hint and came out with no errors or warnings
+
+    <h2><img src='assets/images/JSHint_img.png'></h2>
+
+- ## Accessibility
+
+    - I have confirmed that the font styles are readable, and accessibility is a high percentage using lighthouse in devtools.
+
+<h2><img src='assets/images/light_house_img.png'></h2>
+
+## unfixed Bugs
+
+The JSHint says there is a "unused variable" on the page, which is the reStart variable, but it is in fact being used within my  reStart function. I reached out to people on slack and they say i  could be happening beacuse i have multiple scripts and the validator can't identify which one it belongs to.
+
+<h2><img src='assets/images/unused_img.png'></h2>
+
+# Deployment
+
+- deployment of the site was done on GitHub. The steps of how are as follows:
+    - click on repository "portfolio-project-2" from my account. From there navigate to settings.
+    - on the left side of the page under "code and automation" click on pages.
+    - select "main" in the Branch, then you will be provided a link that will take youto the completed website
+
+    [view project here]('https://marmiteontoast.github.io/portfolio-project-2/')
+
+# Credits
+
+## content
+
+- Part of my javascipt code was taken from a youtube video found [here.]('https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=688s')
+
+- the function used for my scoring system was influenced by a piece of code found on [geeksforgeeks.org.]('https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/')
+
+## Media
+- I got the background image from 123rf.com. a site for people who need images for personal projects. link found [here]('https://www.123rf.com/photo_55758399_seamless-pattern-with-hand-gestures-in-comic-cartoon-style-vector-illustration-of-human-hands-playin.html')
