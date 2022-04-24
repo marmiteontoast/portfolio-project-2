@@ -15,11 +15,13 @@
 <body>
    <div class="flexbox-container">
     <h1>Rock, Paper, Scissors</h1>
+    <button id="open" class="rule-btn">rules</button>
     <div class="flex-row"> 
         <button id="rock" class="btn-styling"><i class="fa-solid fa-hand-back-fist"></i></button>
         <button id="paper" class="btn-styling"><i class="fa-solid fa-hand"></i></button>
         <button id="scissors" class="btn-styling"><i class="fa-solid fa-hand-scissors"></i></button>
     </div>
+    
     <div id="row-div">
         <h2>player picks: <span id="player-picks"></span></h2>
         <h2>computer picks: <span id="comp-picks"></span></h2>
@@ -33,5 +35,19 @@
             <button id="reset" class="btn-styling"><i class="fa-solid fa-rotate"></i></button>
         </div>
    </div> 
+
+   <div class="modal-container" id="modal-container">
+       <div class="modal">
+           <ul>
+               <h1>rules of the game</h1>
+               <li>Deafeat the computer at rock, paper, scissors</li>
+               <li>first one to score 6 wins the game</li>
+               <li>rock crushes scissors</li>
+               <li>paper covers rock</li>
+               <li>scissors cuts paper</li>
+           </ul>
+           <button id="close">close</button>
+       </div>
+   </div>
 </body>
 </html>

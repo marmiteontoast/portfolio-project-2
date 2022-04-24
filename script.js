@@ -23,6 +23,7 @@ button.forEach(button => button.addEventListener('click', function() {
     getResult();
     gameOver();
     reStart();
+    modal();
 }));
 
 /**
@@ -102,4 +103,19 @@ function reStart() {
         window.location.reload();
    });
   
+}
+
+function modal() {
+    let open = document.querySelector('#open')
+    let modalContainer = document.querySelector('#modal-container')
+    let close = document.querySelector('#close')
+
+    open.addEventListener('click', () => {
+        modalContainer.classList.add('show')
+    });
+
+    close.addEventListener('click', () => {
+        modalContainer.classList.remove('show')
+    });
+
 }

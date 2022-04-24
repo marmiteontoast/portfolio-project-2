@@ -52,6 +52,42 @@ i {
     color: #3f3f3f;
 }
 
+/* model box */
+
+.rule-btn {
+    background-color: black;
+    color: white;
+}
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: black;
+    border-radius: 0.3125rem;
+    padding: 1.875rem, 3.125rem ;
+    width: 37.5rem;
+    max-width: 100%;
+
+}
+
 /* media queires */
 @media (min-width: 768px ) {
     body{
