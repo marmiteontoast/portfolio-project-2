@@ -53,12 +53,27 @@ i {
 }
 
 /* model box */
-
 .rule-btn {
     background-color: black;
     color: white;
+    padding: 0.5rem;
+    border-radius: 30%;
+    border-style: none;
+    font-size: 1.5rem;
+    border: solid;
 }
 
+.close-btn {
+    background-color: white;
+    color: black;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    border-style: none;
+    border-radius: 30%;
+    border: solid;
+    border-color: purple;
+    font-size: 1.2rem;
+}
 .modal-container {
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
@@ -88,6 +103,11 @@ i {
 
 }
 
+li {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
 /* media queires */
 @media (min-width: 768px ) {
     body{
@@ -98,14 +118,14 @@ i {
     
     .flexbox-container {
         width: 44.875rem;
-        height: 44.375rem;
+        height: 46.375rem;
         margin: auto;
         margin-top: 5rem;
         background-color: rgba(128, 0, 128, 0.4);
     }
 
     div {
-        gap: 4.3rem;
+        gap: 3.4rem;
     }
 
     #row-div {
