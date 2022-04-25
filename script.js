@@ -104,7 +104,10 @@ function reStart() {
    });
   
 }
-
+/**
+ * function for modal box. 
+ * when the rule button is clicked a box of the rules will pop up on screen
+ */
 function modal() {
     let open = document.querySelector('#open')
     let modalContainer = document.querySelector('#modal-container')
