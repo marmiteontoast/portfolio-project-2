@@ -100,6 +100,9 @@ i {
     padding: 1.875rem, 3.125rem ;
     width: 37.5rem;
     max-width: 100%;
+    border: solid;
+    border-color: purple;
+    border-width: 0.32rem;
 
 }
 
