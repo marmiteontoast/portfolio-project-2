@@ -6,7 +6,7 @@ const resultDisplay = document.querySelector('#result');
 const playerScore = document.querySelector('#player-score');
 const compScore = document.querySelector('#comp-score');
 
-const button = document.querySelectorAll('button');
+const button = document.querySelectorAll('.rps');
 let playerPicks;
 let compPicks;
 let result; 
@@ -22,9 +22,15 @@ button.forEach(button => button.addEventListener('click', function() {
     compRandomAnswer();
     getResult();
     gameOver();
-    reStart();
-    modal();
+    
+    
+    
 }));
+
+document.addEventListener('click', function() {
+    modal();
+    reStart();
+});
 
 /**
  * fuction generates ranodom number
@@ -99,26 +105,31 @@ function gameOver(getResult) {
  * function for reset button. refreshes page.
  */
 function reStart() {
-   const reStart = document.querySelector('#reset').addEventListener('click', function() {
+   const reStart = document.querySelector('#reset');
+   
+   reStart.addEventListener('click', function() {
         window.location.reload();
    });
   
 }
+
+
 /**
  * function for modal box. 
  * when the rule button is clicked a box of the rules will pop up on screen
  */
 function modal() {
-    let open = document.querySelector('#open')
-    let modalContainer = document.querySelector('#modal-container')
-    let close = document.querySelector('#close')
+    let open = document.querySelector('#open');
+    let modalContainer = document.querySelector('#modal-container');
+    let close = document.querySelector('#close');
 
     open.addEventListener('click', () => {
-        modalContainer.classList.add('show')
+        modalContainer.classList.add('show');
     });
 
     close.addEventListener('click', () => {
-        modalContainer.classList.remove('show')
+        modalContainer.classList.remove('show');
     });
 
 }
+
