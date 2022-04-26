@@ -66,7 +66,14 @@ This is my rock, paper, scissors game meant to show my current javascript knowle
 - ### The rock, paper, scissors heading
     - presented on the top of the page, heading is in the banger font and all capitals. It's bold, it stands out and is easy for the user to see. From first glance the user is able to identify the name of the game.
 
-<h2><img src='assets/images/header_img.png'></h2> 
+<h2><img src='assets/images/header_img.png'></h2>
+
+- ### The rules buttoon
+    - featuring the rule button in between the header and game buttons makes it clear for the user to see.
+
+    - when the user clicks on the button a modal box will pop up with the rules of the game 
+
+<h2><img src='assets/images/rule_button_img.png'></h2>
 
 - ### Game Buttons
 
@@ -147,9 +154,9 @@ This is my rock, paper, scissors game meant to show my current javascript knowle
 
 ## unfixed Bugs
 
-The JSHint says there is a "unused variable" on the page, which is the reStart variable, but it is in fact being used within my  reStart function. I reached out to people on slack and they say i  could be happening beacuse i have multiple scripts and the validator can't identify which one it belongs to.
+Because of how the compRandomAnswer function is written i am having some trouble with the result area of my game. it will come up as undefined when the page first loads up but after a couple of seconds it starts working properly.
 
-<h2><img src='assets/images/unused_img.png'></h2>
+<h2><img src='assets/images/undefined_img.png'></h2>
 
 # Deployment
 
