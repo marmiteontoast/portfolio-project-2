@@ -90,14 +90,14 @@ i {
 }
 
 .modal-container.show {
-    pointer-events: auto;
+    pointer-events: all;
     opacity: 1;
 }
 
 .modal {
     background-color: black;
     border-radius: 0.3125rem;
-    padding: 1.875rem, 3.125rem ;
+    padding: 30px, 50px;
     width: 37.5rem;
     max-width: 100%;
     border: solid;
