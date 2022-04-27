@@ -27,6 +27,7 @@ button.forEach(button => button.addEventListener('click', function() {
     
 }));
 
+// these functions to activate when clicked 
 document.addEventListener('click', function() {
     modal();
     reStart();
